@@ -1,4 +1,3 @@
-package leet_S;
 import java.util.Scanner;
 public class IsomorphicStr {
     public static boolean isIsomorphic(String s, String t){

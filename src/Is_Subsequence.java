@@ -1,4 +1,3 @@
-package leet_S;
 import java.util.Scanner;
 public class Is_Subsequence {
     public static boolean isSubsequence(String s, String t) {

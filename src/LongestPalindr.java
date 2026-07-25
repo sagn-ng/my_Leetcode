@@ -1,4 +1,3 @@
-package leet_S;
 import java.util.Scanner;
 
 public class LongestPalindr {
