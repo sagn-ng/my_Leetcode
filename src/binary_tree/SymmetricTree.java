@@ -20,7 +20,7 @@ public class SymmetricTree {
             else if (rmLeft.val!=rmRight.val) return false; //if both aren't null and the "val" don't match
 
             leftIterate.add(rmLeft.left); leftIterate.add(rmLeft.right); //add new elements to 2 queues
-            rightIterate.add(rmRight); rightIterate.add(rmRight);
+            rightIterate.add(rmRight.right); rightIterate.add(rmRight.left);
         }
         return true;
     }
