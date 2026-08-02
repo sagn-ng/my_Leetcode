@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root){
         if (root.left==null) return (root.right==null);
-        if (root.right==null) return (root.right==null);
+        if (root.right==null) return (root.left==null);
         ArrayList<TreeNode> leftIterate=new ArrayList<>();
         ArrayList<TreeNode> rightIterate=new ArrayList<>(leftIterate);
         /*ArrayList is used to work like a queue;
