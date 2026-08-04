@@ -1,8 +1,8 @@
 import java.util.LinkedList;
-public class StacksUsingQ {
+public class MyStack {
     private LinkedList<Integer> arr;
     @SuppressWarnings({ "unchecked", "rawtypes" })
-    public StacksUsingQ() {
+    public MyStack() {
         this.arr=new LinkedList();
     }
     
