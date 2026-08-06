@@ -1,7 +1,7 @@
 package binary_tree;
-class TreeNode {
-    int val;
-    TreeNode left, right;
+public class TreeNode {
+    public int val;
+    public TreeNode left, right;
     TreeNode(int val){
         this.val=val;
     }
