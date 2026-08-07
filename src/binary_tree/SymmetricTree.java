@@ -5,7 +5,7 @@ public class SymmetricTree {
         if (root.left==null) return (root.right==null);
         if (root.right==null) return (root.left==null);
         ArrayList<TreeNode> leftIterate=new ArrayList<>();
-        ArrayList<TreeNode> rightIterate=new ArrayList<>(leftIterate);
+        ArrayList<TreeNode> rightIterate=new ArrayList<>();
         /*ArrayList is used to work like a queue;
         with leftIterate get elements in: -> direction, while rightIterate get its elements backwards: <-
         */
