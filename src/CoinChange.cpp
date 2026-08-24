@@ -17,4 +17,5 @@ int main(){
     vector<int> coins={1,2,5,3};
     int amount=25;
     cout<<coinChange(coins, amount);
+    return 0;
 }
