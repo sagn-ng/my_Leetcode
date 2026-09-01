@@ -1,5 +1,5 @@
-#ifndef TREENODE_H
-#define TREENODE_H
+#ifndef TREENODE_HPP
+#define TREENODE_HPP
 
 struct TreeNode
 {
