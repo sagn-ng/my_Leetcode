@@ -1,20 +1,23 @@
 def minOperations(s: str) -> int:
-    if sorted(s)==list(s): return 0
+    n=len(s)
+    isSorted=True
+    mn, mx=s[0], s[0]
 
-    n = len(s)
-    if n <= 2:
-        return -1
+    for i in range(1, n):
+        if (s[i]<s[i-1]): isSorted=False
 
-    mn = min(s)
-    mx = max(s)
+        if (s[i]<mn): mn=s[i]
+        if (s[i]>mx): mx=s[i]
 
-    if mn == s[0] or mx == s[-1]:
-        return 1
+    if (isSorted): return 0
+    if n==2: return -1
 
-    if mn not in s[:-1] and mx not in s[1:]:
-        return 3
+    if (mn==s[0] or mx==s[-1]): return 1
 
-    return 2
+    for i in range(1, n-1):
+        if (s[i]==mn or s[i]==mx): return 2
+
+    return 3
 
 
 s=input("")
