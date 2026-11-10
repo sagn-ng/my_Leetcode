@@ -9,6 +9,6 @@ public class BalancedTree {
         return (diff>1) ? -1 : 1+Math.max(depthL, depthR);
     } //dfs in BT is just preorder traversal
     public boolean isBalanced(TreeNode root){
-        return (dfs(root)==-1);
+        return (dfs(root)!=-1);
     }
 }
