@@ -1,3 +1,4 @@
+package maths;
 public class ValidSudoku {
     private boolean ValidRow(char[][] board, int row){
         int[] freq=new int[9];

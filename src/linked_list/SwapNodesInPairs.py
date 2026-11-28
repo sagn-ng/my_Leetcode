@@ -1,4 +1,4 @@
-from binary_tree.ListNode import ListNode
+from ListNode import ListNode
 
 def swapPairs(head: ListNode | None) -> ListNode | None:
     if (head==None): return None

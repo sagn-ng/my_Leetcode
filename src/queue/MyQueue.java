@@ -1,3 +1,4 @@
+package queue;
 class MyQueue {
     private int max=100;
     private int[] stack1, stack2;

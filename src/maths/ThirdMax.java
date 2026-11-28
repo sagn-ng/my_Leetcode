@@ -1,3 +1,4 @@
+package maths;
 import java.util.Scanner;
 public class ThirdMax {
     public static int thirdMax(int[] nums){

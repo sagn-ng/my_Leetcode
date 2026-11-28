@@ -1,3 +1,4 @@
+package recursion_backtracking;
 class SudokuSolver {
 
     private boolean isNumberInRow(char[][] board, char num, int row){

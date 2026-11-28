@@ -1,3 +1,4 @@
+package sequences;
 import java.util.Scanner;
 public class RevVowelStr {
     public static boolean isVowel(char c){

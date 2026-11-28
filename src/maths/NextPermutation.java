@@ -1,3 +1,4 @@
+package maths;
 //import java.util.Scanner;
 public class NextPermutation {
     private static void swap(int[]nums, int i, int j){

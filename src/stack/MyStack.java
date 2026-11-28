@@ -1,3 +1,4 @@
+package stack;
 import java.util.LinkedList;
 public class MyStack {
     private LinkedList<Integer> arr;

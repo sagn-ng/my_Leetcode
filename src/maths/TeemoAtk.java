@@ -1,3 +1,4 @@
+package maths;
 import java.util.Scanner;
 public class TeemoAtk {
     public static int findPoisonedDuration(int[] timeSeries, int duration) {

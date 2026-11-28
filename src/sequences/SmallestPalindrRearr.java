@@ -1,3 +1,4 @@
+package sequences;
 //import java.util.Scanner;
 public class SmallestPalindrRearr {
     public static String smallestPalindrome(String s) {

@@ -1,3 +1,4 @@
+package maths;
 //import java.util.Scanner;
 public class WaterJug {
     private static int gcd(int a, int b){
