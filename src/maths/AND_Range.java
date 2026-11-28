@@ -1,3 +1,4 @@
+package maths;
 import java.util.Scanner;
 public class AND_Range {
     public static int rangeBitwiseAnd(int left, int right){

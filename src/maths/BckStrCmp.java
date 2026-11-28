@@ -1,3 +1,4 @@
+package maths;
 //import java.util.Scanner;
 public class BckStrCmp {
     public static boolean backspaceCompare(String s, String t) {

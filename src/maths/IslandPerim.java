@@ -1,3 +1,4 @@
+package maths;
 import java.util.Scanner;
 public class IslandPerim {
     public static int islandPerimeter(int[][] grid) {

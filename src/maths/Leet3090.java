@@ -1,3 +1,4 @@
+package maths;
 //leetcoe 3090: maximum length of substring with 2 occurences
 public class Leet3090 {
     public int maximumLengthSubstring(String s) {

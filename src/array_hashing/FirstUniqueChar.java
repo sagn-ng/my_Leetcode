@@ -1,3 +1,4 @@
+package array_hashing;
 public class FirstUniqueChar {
     public int firstUniqChar(String s) {
         int[] freq=new int[26];

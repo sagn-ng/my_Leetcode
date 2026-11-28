@@ -1,3 +1,4 @@
+package array_hashing;
 import java.util.Scanner;
 public class IsomorphicStr {
     public static boolean isIsomorphic(String s, String t){

@@ -1,3 +1,4 @@
+package maths;
 import java.util.Scanner;
 public class Base7 {
     public static String convertToBase7(int num) {

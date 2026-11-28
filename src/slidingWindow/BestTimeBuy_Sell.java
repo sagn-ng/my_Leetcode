@@ -1,3 +1,4 @@
+package slidingWindow;
 import java.util.Scanner;
 public class BestTimeBuy_Sell {
     public static int maxProfit(int[] prices) {

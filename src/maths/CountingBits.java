@@ -1,3 +1,4 @@
+package maths;
 public class CountingBits {
     public int[] countBits(int n) {
         int pow2_max=Integer.MAX_VALUE/2+1; //get the biggest power of 2 that is in type "int"

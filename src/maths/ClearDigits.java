@@ -1,3 +1,4 @@
+package maths;
 public class ClearDigits {
     public String clearDigits(String s) {
         int last=-1, n=s.length();

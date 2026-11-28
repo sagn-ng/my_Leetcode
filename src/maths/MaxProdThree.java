@@ -1,3 +1,4 @@
+package maths;
 /*import java.util.Scanner;*/
 // -1000 <= nums[i] <= 1000
 public class MaxProdThree {

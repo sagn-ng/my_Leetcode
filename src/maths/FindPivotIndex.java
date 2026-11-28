@@ -1,3 +1,4 @@
+package maths;
 public class FindPivotIndex {
     public int pivotIndex(int[] nums) {
         int total=0, leftSum=0;
